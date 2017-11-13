@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: c109ddd4b52d24a448412ad0eb2d1c64
+timeCreated: 1502674306
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 L Finger0
+    100004: Bip001 L Finger01
+    100006: Bip001 L Finger02
+    100008: Bip001 L Finger0Nub
+    100010: Bip001 L Finger0Nub_end
+    100012: Bip001 L Finger0Nub_end_end
+    100014: Bip001 L Finger1
+    100016: Bip001 L Finger11
+    100018: Bip001 L Finger12
+    100020: Bip001 L Finger1Nub
+    100022: Bip001 L Finger1Nub_end
+    100024: Bip001 L Finger1Nub_end_end
+    100026: Bip001 L Finger2
+    100028: Bip001 L Finger21
+    100030: Bip001 L Finger22
+    100032: Bip001 L Finger2Nub
+    100034: Bip001 L Finger2Nub_end
+    100036: Bip001 L Finger2Nub_end_end
+    100038: Bip001 L Finger3
+    100040: Bip001 L Finger31
+    100042: Bip001 L Finger32
+    100044: Bip001 L Finger3Nub
+    100046: Bip001 L Finger3Nub_end
+    100048: Bip001 L Finger3Nub_end_end
+    100050: Bip001 L Finger4
+    100052: Bip001 L Finger41
+    100054: Bip001 L Finger42
+    100056: Bip001 L Finger4Nub
+    100058: Bip001 L Finger4Nub_end
+    100060: Bip001 L Finger4Nub_end_end
+    100062: Bip001 L Hand
+    100064: cal_45
+    100066: cal_45.001
+    100068: cal_45.002
+    100070: cal_45.003
+    100072: robot_lowpoly
+    100074: //RootNode
+    100076: WPN_P350
+    100078: WPN_P350_barrel
+    100080: WPN_P350_hammer
+    100082: WPN_P350_magazine
+    100084: WPN_P350_slide
+    100086: WPN_P350_trigger
+    400000: Bip001
+    400002: Bip001 L Finger0
+    400004: Bip001 L Finger01
+    400006: Bip001 L Finger02
+    400008: Bip001 L Finger0Nub
+    400010: Bip001 L Finger0Nub_end
+    400012: Bip001 L Finger0Nub_end_end
+    400014: Bip001 L Finger1
+    400016: Bip001 L Finger11
+    400018: Bip001 L Finger12
+    400020: Bip001 L Finger1Nub
+    400022: Bip001 L Finger1Nub_end
+    400024: Bip001 L Finger1Nub_end_end
+    400026: Bip001 L Finger2
+    400028: Bip001 L Finger21
+    400030: Bip001 L Finger22
+    400032: Bip001 L Finger2Nub
+    400034: Bip001 L Finger2Nub_end
+    400036: Bip001 L Finger2Nub_end_end
+    400038: Bip001 L Finger3
+    400040: Bip001 L Finger31
+    400042: Bip001 L Finger32
+    400044: Bip001 L Finger3Nub
+    400046: Bip001 L Finger3Nub_end
+    400048: Bip001 L Finger3Nub_end_end
+    400050: Bip001 L Finger4
+    400052: Bip001 L Finger41
+    400054: Bip001 L Finger42
+    400056: Bip001 L Finger4Nub
+    400058: Bip001 L Finger4Nub_end
+    400060: Bip001 L Finger4Nub_end_end
+    400062: Bip001 L Hand
+    400064: cal_45
+    400066: cal_45.001
+    400068: cal_45.002
+    400070: cal_45.003
+    400072: robot_lowpoly
+    400074: //RootNode
+    400076: WPN_P350
+    400078: WPN_P350_barrel
+    400080: WPN_P350_hammer
+    400082: WPN_P350_magazine
+    400084: WPN_P350_slide
+    400086: WPN_P350_trigger
+    2300000: cal_45
+    2300002: cal_45.001
+    2300004: cal_45.002
+    2300006: cal_45.003
+    2300008: WPN_P350
+    2300010: WPN_P350_barrel
+    2300012: WPN_P350_hammer
+    2300014: WPN_P350_magazine
+    2300016: WPN_P350_slide
+    2300018: WPN_P350_trigger
+    3300000: cal_45
+    3300002: cal_45.001
+    3300004: cal_45.002
+    3300006: cal_45.003
+    3300008: WPN_P350
+    3300010: WPN_P350_barrel
+    3300012: WPN_P350_hammer
+    3300014: WPN_P350_magazine
+    3300016: WPN_P350_slide
+    3300018: WPN_P350_trigger
+    4300000: cal_45.003
+    4300002: cal_45.002
+    4300004: cal_45.001
+    4300006: cal_45
+    4300008: WPN_P350_hammer
+    4300010: WPN_P350_slide
+    4300012: WPN_P350_barrel
+    4300014: WPN_P350_trigger
+    4300016: WPN_P350_magazine
+    4300018: WPN_P350
+    4300020: robot_lowpoly
+    7400000: cal_45.003|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take
+      001|
+    7400002: cal_45.003|cal_40.001|Take 001|BaseLayer
+    7400004: cal_45.003|cal_40.002|Take 001|BaseLayer
+    7400006: cal_45.003|cal_40|Take 001|BaseLayer
+    7400008: cal_45.003|cal_45.001|Take 001|BaseLayer
+    7400010: cal_45.003|cal_45.002|Take 001|BaseLayer
+    7400012: cal_45.003|cal_45.003|Take 001|BaseLayer
+    7400014: cal_45.003|cal_45|Take 001|BaseLayer
+    7400016: cal_45.003|cal_5_56.001|Take 001|BaseLayer
+    7400018: cal_45.003|cal_5_56.002|Take 001|BaseLayer
+    7400020: cal_45.003|cal_5_56.003|Take 001|BaseLayer
+    7400022: cal_45.003|cal_5_56.004|Take 001|BaseLayer
+    7400024: cal_45.003|cal_5_56|Take 001|BaseLayer
+    7400026: cal_45.002|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take
+      001|
+    7400028: cal_45.002|cal_40.001|Take 001|BaseLayer
+    7400030: cal_45.002|cal_40.002|Take 001|BaseLayer
+    7400032: cal_45.002|cal_40|Take 001|BaseLayer
+    7400034: cal_45.002|cal_45.001|Take 001|BaseLayer
+    7400036: cal_45.002|cal_45.002|Take 001|BaseLayer
+    7400038: cal_45.002|cal_45.003|Take 001|BaseLayer
+    7400040: cal_45.002|cal_45|Take 001|BaseLayer
+    7400042: cal_45.002|cal_5_56.001|Take 001|BaseLayer
+    7400044: cal_45.002|cal_5_56.002|Take 001|BaseLayer
+    7400046: cal_45.002|cal_5_56.003|Take 001|BaseLayer
+    7400048: cal_45.002|cal_5_56.004|Take 001|BaseLayer
+    7400050: cal_45.002|cal_5_56|Take 001|BaseLayer
+    7400052: cal_45.001|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take
+      001|
+    7400054: cal_45.001|cal_40.001|Take 001|BaseLayer
+    7400056: cal_45.001|cal_40.002|Take 001|BaseLayer
+    7400058: cal_45.001|cal_40|Take 001|BaseLayer
+    7400060: cal_45.001|cal_45.001|Take 001|BaseLayer
+    7400062: cal_45.001|cal_45.002|Take 001|BaseLayer
+    7400064: cal_45.001|cal_45.003|Take 001|BaseLayer
+    7400066: cal_45.001|cal_45|Take 001|BaseLayer
+    7400068: cal_45.001|cal_5_56.001|Take 001|BaseLayer
+    7400070: cal_45.001|cal_5_56.002|Take 001|BaseLayer
+    7400072: cal_45.001|cal_5_56.003|Take 001|BaseLayer
+    7400074: cal_45.001|cal_5_56.004|Take 001|BaseLayer
+    7400076: cal_45.001|cal_5_56|Take 001|BaseLayer
+    7400078: cal_45|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take 001|
+    7400080: cal_45|cal_40.001|Take 001|BaseLayer
+    7400082: cal_45|cal_40.002|Take 001|BaseLayer
+    7400084: cal_45|cal_40|Take 001|BaseLayer
+    7400086: cal_45|cal_45.001|Take 001|BaseLayer
+    7400088: cal_45|cal_45.002|Take 001|BaseLayer
+    7400090: cal_45|cal_45.003|Take 001|BaseLayer
+    7400092: cal_45|cal_45|Take 001|BaseLayer
+    7400094: cal_45|cal_5_56.001|Take 001|BaseLayer
+    7400096: cal_45|cal_5_56.002|Take 001|BaseLayer
+    7400098: cal_45|cal_5_56.003|Take 001|BaseLayer
+    7400100: cal_45|cal_5_56.004|Take 001|BaseLayer
+    7400102: cal_45|cal_5_56|Take 001|BaseLayer
+    7400104: Bip001|Bip001Action
+    7400106: Bip001|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take 001|
+    7400108: Bip001|cal_40.001|Take 001|BaseLayer
+    7400110: Bip001|cal_40.002|Take 001|BaseLayer
+    7400112: Bip001|cal_40|Take 001|BaseLayer
+    7400114: Bip001|cal_45.001|Take 001|BaseLayer
+    7400116: Bip001|cal_45.002|Take 001|BaseLayer
+    7400118: Bip001|cal_45.003|Take 001|BaseLayer
+    7400120: Bip001|cal_45|Take 001|BaseLayer
+    7400122: Bip001|cal_5_56.001|Take 001|BaseLayer
+    7400124: Bip001|cal_5_56.002|Take 001|BaseLayer
+    7400126: Bip001|cal_5_56.003|Take 001|BaseLayer
+    7400128: Bip001|cal_5_56.004|Take 001|BaseLayer
+    7400130: Bip001|cal_5_56|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: robot_lowpoly
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

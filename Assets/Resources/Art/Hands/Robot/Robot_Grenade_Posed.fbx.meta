@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: d50dd00a89b488a44ab8c7c1a5edf2a9
+timeCreated: 1502674307
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 L Finger0
+    100004: Bip001 L Finger01
+    100006: Bip001 L Finger02
+    100008: Bip001 L Finger0Nub
+    100010: Bip001 L Finger0Nub_end
+    100012: Bip001 L Finger0Nub_end_end
+    100014: Bip001 L Finger1
+    100016: Bip001 L Finger11
+    100018: Bip001 L Finger12
+    100020: Bip001 L Finger1Nub
+    100022: Bip001 L Finger1Nub_end
+    100024: Bip001 L Finger1Nub_end_end
+    100026: Bip001 L Finger2
+    100028: Bip001 L Finger21
+    100030: Bip001 L Finger22
+    100032: Bip001 L Finger2Nub
+    100034: Bip001 L Finger2Nub_end
+    100036: Bip001 L Finger2Nub_end_end
+    100038: Bip001 L Finger3
+    100040: Bip001 L Finger31
+    100042: Bip001 L Finger32
+    100044: Bip001 L Finger3Nub
+    100046: Bip001 L Finger3Nub_end
+    100048: Bip001 L Finger3Nub_end_end
+    100050: Bip001 L Finger4
+    100052: Bip001 L Finger41
+    100054: Bip001 L Finger42
+    100056: Bip001 L Finger4Nub
+    100058: Bip001 L Finger4Nub_end
+    100060: Bip001 L Finger4Nub_end_end
+    100062: Bip001 L Hand
+    100064: //RootNode
+    100066: robot_lowpoly
+    100068: WPN_CX8_trigger
+    100070: WPN_MK2Grenade
+    100072: WPN_MK2Grenade_pin
+    100074: WPN_MK2Grenade_ring
+    400000: Bip001
+    400002: Bip001 L Finger0
+    400004: Bip001 L Finger01
+    400006: Bip001 L Finger02
+    400008: Bip001 L Finger0Nub
+    400010: Bip001 L Finger0Nub_end
+    400012: Bip001 L Finger0Nub_end_end
+    400014: Bip001 L Finger1
+    400016: Bip001 L Finger11
+    400018: Bip001 L Finger12
+    400020: Bip001 L Finger1Nub
+    400022: Bip001 L Finger1Nub_end
+    400024: Bip001 L Finger1Nub_end_end
+    400026: Bip001 L Finger2
+    400028: Bip001 L Finger21
+    400030: Bip001 L Finger22
+    400032: Bip001 L Finger2Nub
+    400034: Bip001 L Finger2Nub_end
+    400036: Bip001 L Finger2Nub_end_end
+    400038: Bip001 L Finger3
+    400040: Bip001 L Finger31
+    400042: Bip001 L Finger32
+    400044: Bip001 L Finger3Nub
+    400046: Bip001 L Finger3Nub_end
+    400048: Bip001 L Finger3Nub_end_end
+    400050: Bip001 L Finger4
+    400052: Bip001 L Finger41
+    400054: Bip001 L Finger42
+    400056: Bip001 L Finger4Nub
+    400058: Bip001 L Finger4Nub_end
+    400060: Bip001 L Finger4Nub_end_end
+    400062: Bip001 L Hand
+    400064: //RootNode
+    400066: robot_lowpoly
+    400068: WPN_CX8_trigger
+    400070: WPN_MK2Grenade
+    400072: WPN_MK2Grenade_pin
+    400074: WPN_MK2Grenade_ring
+    2300000: WPN_CX8_trigger
+    2300002: WPN_MK2Grenade
+    2300004: WPN_MK2Grenade_pin
+    2300006: WPN_MK2Grenade_ring
+    3300000: WPN_CX8_trigger
+    3300002: WPN_MK2Grenade
+    3300004: WPN_MK2Grenade_pin
+    3300006: WPN_MK2Grenade_ring
+    4300000: WPN_MK2Grenade
+    4300002: WPN_MK2Grenade_ring
+    4300004: WPN_MK2Grenade_pin
+    4300006: WPN_CX8_trigger
+    4300008: robot_lowpoly
+    7400000: WPN_MK2Grenade|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take
+      001|
+    7400002: WPN_MK2Grenade|cal_40.001|Take 001|BaseLayer
+    7400004: WPN_MK2Grenade|cal_40.002|Take 001|BaseLayer
+    7400006: WPN_MK2Grenade|cal_40|Take 001|BaseLayer
+    7400008: WPN_MK2Grenade|WPN_MK2Grenade_pin|Take 001|BaseLayer
+    7400010: WPN_MK2Grenade|WPN_MK2Grenade_ring|Take 001|BaseLayer
+    7400012: WPN_MK2Grenade|WPN_MK2Grenade|Take 001|BaseLayer
+    7400014: WPN_MK2Grenade_ring|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take
+      001|
+    7400016: WPN_MK2Grenade_ring|cal_40.001|Take 001|BaseLayer
+    7400018: WPN_MK2Grenade_ring|cal_40.002|Take 001|BaseLayer
+    7400020: WPN_MK2Grenade_ring|cal_40|Take 001|BaseLayer
+    7400022: WPN_MK2Grenade_ring|WPN_MK2Grenade_pin|Take 001|BaseLayer
+    7400024: WPN_MK2Grenade_ring|WPN_MK2Grenade_ring|Take 001|BaseLayer
+    7400026: WPN_MK2Grenade_ring|WPN_MK2Grenade|Take 001|BaseLayer
+    7400028: WPN_MK2Grenade_pin|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take
+      001|
+    7400030: WPN_MK2Grenade_pin|cal_40.001|Take 001|BaseLayer
+    7400032: WPN_MK2Grenade_pin|cal_40.002|Take 001|BaseLayer
+    7400034: WPN_MK2Grenade_pin|cal_40|Take 001|BaseLayer
+    7400036: WPN_MK2Grenade_pin|WPN_MK2Grenade_pin|Take 001|BaseLayer
+    7400038: WPN_MK2Grenade_pin|WPN_MK2Grenade_ring|Take 001|BaseLayer
+    7400040: WPN_MK2Grenade_pin|WPN_MK2Grenade|Take 001|BaseLayer
+    7400042: Bip001|Bip001Action
+    7400044: Bip001|Bip001|Bip001|Bip001|Take 001|BaseLayer|Bip001|Bip001|Take 001|
+    7400046: Bip001|cal_40.001|Take 001|BaseLayer
+    7400048: Bip001|cal_40.002|Take 001|BaseLayer
+    7400050: Bip001|cal_40|Take 001|BaseLayer
+    7400052: Bip001|WPN_MK2Grenade_pin|Take 001|BaseLayer
+    7400054: Bip001|WPN_MK2Grenade_ring|Take 001|BaseLayer
+    7400056: Bip001|WPN_MK2Grenade|Take 001|BaseLayer
+    9500000: //RootNode
+    13700000: robot_lowpoly
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
