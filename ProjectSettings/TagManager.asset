@@ -18,6 +18,7 @@ TagManager:
   - ExcludeTeleport
   - GruberMag
   - P90Mag
+  - Pistol
   layers:
   - Default
   - TransparentFX
