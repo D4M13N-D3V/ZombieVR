@@ -37,14 +37,14 @@ namespace ZombieGame.Player
 
 		private void Update()
 		{
-			if (PlayerManager.Instance.LeftController.GetTouch(EVRButtonId.k_EButton_SteamVR_Touchpad))
+			if (PManager.Instance.LeftController.GetTouch(EVRButtonId.k_EButton_SteamVR_Touchpad))
 			{
-				Vector2 input = PlayerManager.Instance.LeftController.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad);
+				Vector2 input = PManager.Instance.LeftController.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad);
 				_navAgent.Move(transform.GetChild(3).forward * (input.y * Time.deltaTime) + transform.GetChild(3).right * (input.x * Time.deltaTime));
 			}
-			if (PlayerManager.Instance.RightController.GetTouch(EVRButtonId.k_EButton_SteamVR_Touchpad))
+			if (PManager.Instance.RightController.GetTouch(EVRButtonId.k_EButton_SteamVR_Touchpad))
 			{
-				Vector2 input = PlayerManager.Instance.RightController.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad);
+				Vector2 input = PManager.Instance.RightController.GetAxis(EVRButtonId.k_EButton_SteamVR_Touchpad);
 				_navAgent.Move(transform.GetChild(3).forward * (input.y * Time.deltaTime) + transform.GetChild(3).right * (input.x * Time.deltaTime));
 			}
 		}

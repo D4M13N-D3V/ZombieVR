@@ -5,9 +5,9 @@ using UnityEngine;
 
 namespace ZombieGame.Player
 {
-    public class PlayerManager : MonoBehaviour
+    public class PManager : MonoBehaviour
     {
-        public static PlayerManager Instance 
+        public static PManager Instance 
         {
             get
             {
@@ -16,7 +16,7 @@ namespace ZombieGame.Player
                 return null;
             }
         }
-        private static PlayerManager _instance;
+        private static PManager _instance;
         private void Awake()
         {
             if (_instance != null)

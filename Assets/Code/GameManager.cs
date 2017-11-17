@@ -34,7 +34,7 @@ namespace ZombieGame
 
 		private void Start()
 		{
-			Player.PlayerManager.Instance.Setup();
+			Player.PManager.Instance.Setup();
 		}
 
 		public void AddPoints(int amount)

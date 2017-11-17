@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-namespace ZombieGame.Player
+namespace ZombieGame
 {
 	public class Health : MonoBehaviour
 	{
@@ -34,13 +35,13 @@ namespace ZombieGame.Player
 		private float _poisionTickRate;
 		private float _poisionDuration;
 
-		public void Setup()
+		public virtual void Setup()
 		{
 			_currentHealth = MaxHealth;
 			_currentArmour = MaxArmour;
 		}
 		
-		public void TakeDamage(float damage)
+		public virtual void TakeDamage(float damage)
 		{
 			if ( damage-_currentArmour<=0 )
 			{
@@ -59,27 +60,31 @@ namespace ZombieGame.Player
 			}
 		}
 
-		public void PickupHealth(float amount)
+		public virtual void PickupHealth(float amount)
 		{
 			GiveHealth(amount);
 			return;
 		}
 
-		public void PickupArmour(float amount)
+		public virtual void PickupArmour(float amount)
 		{
 			GiveArmour(amount);
 			return;
 		}
 
-		public void Poision(float damage, float durationInSeconds)
+		public virtual void Poision(float damage, float durationInSeconds)
 		{
 			_poisioned = true;
 			_poisionDuration = durationInSeconds;
 			_poisionDamage = damage;
 			_poisionTickRate = damage / durationInSeconds;
 			StartCoroutine(PoisionLoop());
-		} 
-		
+		}
+
+		public virtual void Death()
+		{
+			print("DEAD");	
+		}
 		
 		private void GiveHealth(float amount)
 		{
@@ -91,7 +96,7 @@ namespace ZombieGame.Player
 			return;
 		}
 
-		public void GiveArmour(float amount)
+		private void GiveArmour(float amount)
 		{
 			_currentArmour = _currentArmour + amount;
 			if (_currentArmour > MaxArmour)
