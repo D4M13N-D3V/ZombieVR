@@ -7,14 +7,34 @@ namespace ZombieGame.Enemys
 {
 	public class EnemyHealth : Health
 	{
-		public EnemyHealth()
+		private void Awake()
 		{
-				
+			
+			Component[] components = GetComponentsInChildren(typeof(Transform));
+        
+			foreach (Component c in components)
+			{
+				if (c.GetComponent<Rigidbody>() != null)
+				{
+					c.GetComponent<Rigidbody>().isKinematic = true;
+				}
+			}
 		}
-		
+
 		public override void Death()
 		{
-			Destroy(gameObject);
+			GetComponent<BoxCollider>().enabled = false;
+			GetComponent<Animator>().enabled = false;
+			
+			Component[] components = GetComponentsInChildren(typeof(Transform));
+        
+			foreach (Component c in components)
+			{
+				if (c.GetComponent<Rigidbody>() != null)
+				{
+					c.GetComponent<Rigidbody>().isKinematic = false;
+				}
+			}
 		}
 	}
 }

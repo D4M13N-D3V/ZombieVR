@@ -1,61 +1,56 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+using VRWeapons;
 
 namespace ZombieGame
 {
-	public class Health : MonoBehaviour
+	public class Health : MonoBehaviour, IAttackReceiver
 	{
-		public static Health Instance 
-		{
-			get
-			{
-				if (_instance != null)
-					return _instance;
-				return null;
-			}
-		}
-		private static Health _instance;
-		private void Awake()
-		{
-			if (_instance != null)
-				Destroy(this);
-			_instance = this;
-			DontDestroyOnLoad(gameObject);
-		}
+		public float MaxHealth; 
 		
-		public float MaxHealth;
-		private float _currentHealth;
-		public float MaxArmour;
-		private float _currentArmour;
+		public float CurrentHealth;
 
 		private bool _poisioned;
 		private float _poisionDamage;
 		private float _poisionTickRate;
 		private float _poisionDuration;
-
-		public virtual void Setup()
-		{
-			_currentHealth = MaxHealth;
-			_currentArmour = MaxArmour;
-		}
+				
+		public UnityEvent OnAttackReceived;
 		
-		public virtual void TakeDamage(float damage)
+		public void ReceiveAttack(VRWeapons.Weapon.Attack attack)
 		{
-			if ( damage-_currentArmour<=0 )
+			if (CurrentHealth - (attack.damage) > 0)
 			{
-				TakeArmour(damage);
-				return;
-			}
-			else if (_currentHealth - (damage - _currentArmour) > 0)
-			{
-				TakeArmour(_currentArmour);
-				TakeHealth(_currentHealth - (damage - _currentArmour));
+				TakeHealth(attack.damage);
+				OnAttackReceived.Invoke();
 				return;
 			}
 			else
 			{
+				CurrentHealth = 0;
+				Death();
+				return;
+			}
+		}
+
+		
+		public virtual void RecieveDamage(float damage)
+		{
+			if (CurrentHealth - damage > 0)
+			{
+				print(damage);
+				TakeHealth(damage);
+				OnAttackReceived.Invoke();
+				return;
+			}
+			else
+			{
+				CurrentHealth = 0;
+				Death();
 				return;
 			}
 		}
@@ -63,12 +58,6 @@ namespace ZombieGame
 		public virtual void PickupHealth(float amount)
 		{
 			GiveHealth(amount);
-			return;
-		}
-
-		public virtual void PickupArmour(float amount)
-		{
-			GiveArmour(amount);
 			return;
 		}
 
@@ -88,33 +77,19 @@ namespace ZombieGame
 		
 		private void GiveHealth(float amount)
 		{
-			_currentHealth = _currentHealth + amount;
-			if (_currentHealth > MaxHealth)
+			CurrentHealth = CurrentHealth + amount;
+			if (CurrentHealth > MaxHealth)
 			{
-				_currentHealth = MaxHealth;
+				CurrentHealth = MaxHealth;
 			}
-			return;
-		}
-
-		private void GiveArmour(float amount)
-		{
-			_currentArmour = _currentArmour + amount;
-			if (_currentArmour > MaxArmour)
-			{
-				_currentArmour = MaxArmour;
-			}
-			return;
-		}
-
-		private void TakeArmour(float damage)
-		{
-			_currentArmour = _currentArmour - damage;
 			return;
 		}
 
 		private void TakeHealth(float damage)
 		{
-			_currentHealth = _currentHealth - damage;
+			print(CurrentHealth - damage);
+			CurrentHealth = CurrentHealth - damage;
+			
 			return;
 		}
 
@@ -124,7 +99,7 @@ namespace ZombieGame
 			while (_poisioned)
 			{
 				yield return new WaitForSeconds(_poisionTickRate);
-				TakeDamage( _poisionDamage );
+				RecieveDamage( _poisionDamage );
 				_poisionLoopTimeTracker = _poisionLoopTimeTracker + _poisionTickRate;
 				if (_poisionLoopTimeTracker >= _poisionDuration)
 				{

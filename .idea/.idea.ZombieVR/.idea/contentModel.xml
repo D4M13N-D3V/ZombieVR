@@ -1077,6 +1077,7 @@
           <e p="Enemys" t="Include">
             <e p="Enemy.cs" t="Include" />
             <e p="EnemyHealth.cs" t="Include" />
+            <e p="EnemyProfile.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="Health.cs" t="Include" />
@@ -1087,7 +1088,6 @@
             <e p="MenuManager.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
-            <e p="Movement.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PManager.cs" t="Include" />
             <e p="Weapons.cs" t="Include" />
@@ -1131,6 +1131,7 @@
             <e p="ShowPivot.cs" t="Include" />
           </e>
         </e>
+        <e p="RandomPicker.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

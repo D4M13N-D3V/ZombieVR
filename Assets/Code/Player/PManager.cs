@@ -22,26 +22,20 @@ namespace ZombieGame.Player
             if (_instance != null)
                 Destroy(this);
             _instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         
         public SteamVR_TrackedObject LeftHand;
         public SteamVR_Controller.Device LeftController;
         public SteamVR_TrackedObject RightHand;
         public SteamVR_Controller.Device RightController;
-        public Health Health;
 
         public void Setup()
         {
-            gameObject.AddComponent<Health>();
-            Health.Instance.MaxHealth = ZombieGame.GameManager.Instance.MaximumHealth;
-            Health.Instance.MaxArmour = ZombieGame.GameManager.Instance.MaximumArmour;
-            Health.Instance.Setup();
-            
-            gameObject.AddComponent<Movement>();
+            PlayerHealth.Instance.MaxHealth = GameManager.Instance.MaximumHealth;
+            PlayerHealth.Instance.Setup();
             
             if (LeftHand != null)
-            {
+            {    
                 LeftController = SteamVR_Controller.Input((int) LeftHand.index);
             }
             if (RightHand != null)

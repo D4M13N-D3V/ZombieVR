@@ -352,7 +352,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1296324325149662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.042, z: 0.4324}
+  m_LocalPosition: {x: 0, y: 0.042, z: 0.4529}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4808156463977714}
@@ -460,7 +460,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049212756221736}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.757491, y: 2.560875, z: 0.87132466}
+  m_LocalPosition: {x: 1.5093681, y: 0.626, z: -1.2033839}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4218825119066658}
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   grabPoint: {fileID: 0}
   autoRackForward: 1
   boltMovesOnFiring: 1
-  impactProfile: {fileID: 11400000, guid: 38b80b53839aa47549beb67460103b79, type: 2}
+  impactProfile: {fileID: 11400000, guid: 14d8f1f1efda64048a0d9c7e8e17b778, type: 2}
   fireMode: 7
   fireRate: 0.1
   burstAmount: 3

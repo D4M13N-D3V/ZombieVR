@@ -21,7 +21,6 @@ namespace ZombieGame.Shops
 			if (_instance != null)
 				Destroy(this);
 			_instance = this;
-			DontDestroyOnLoad(gameObject);
 		}
 		
 		public Transform ItemSpawnPoint;
